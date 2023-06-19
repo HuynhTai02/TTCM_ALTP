@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fr_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintBottom_toBottomOf="@id/iv_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_name" />
+
+    <ImageView
+        android:id="@+id/iv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_altprule"
+        app:layout_constraintBottom_toTopOf="@id/ln_rule_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/ln_rule_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_name">
+
+        <TextView
+            android:id="@+id/tv_lv15"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/lv15"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv15"
+            android:textColor="@color/yellow"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_lv14"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv14"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv14"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv13"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv13"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv13"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv12"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv12"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv12"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv11"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv11"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv11"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv10"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv10"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/txt_lv10"
+            android:textColor="@color/yellow"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_lv9"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv9"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv9"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv8"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv8"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv8"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv7"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv7"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv7"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv6"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv6"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv6"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv5"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv5"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/txt_lv5"
+            android:textColor="@color/yellow"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_lv4"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv4"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv4"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv3"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv3"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv3"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv2"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv2"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv2"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lv1"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lv1"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center"
+            android:text="@string/txt_lv1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_ready"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ln_rule_main"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_phone"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_telephone1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ln_rule_main"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_50"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_50"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/iv_phone"
+        app:layout_constraintEnd_toEndOf="@id/iv_phone"
+        app:layout_constraintStart_toStartOf="@id/iv_phone" />
+
+    <ImageView
+        android:id="@+id/iv_percent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_percent1"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@id/iv_phone"
+        app:layout_constraintStart_toStartOf="@id/iv_phone"
+        app:layout_constraintTop_toBottomOf="@id/iv_phone" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@anim/circle_rotate_zin"
+        android:indeterminateDuration="12000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

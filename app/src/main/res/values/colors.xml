@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#682ECF</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="grey">#52FFFFFF</color>
+    <color name="orange">#E48D0B</color>
+    <color name="grayLight">#E4E2E2</color>
+
+    <!--On boarding colors-->
+    <color name="purple_light">#C297F8</color>
+    <color name="purple_dark">#975DE5</color>
+    <color name="green_light">#76CCBB</color>
+    <color name="green_dark">#1EBDAC</color>
+    <color name="pink_light">#F890BC</color>
+    <color name="pink_dark">#EB5595</color>
+    <color name="blue_light">#90C2F8</color>
+    <color name="blue_dark">#5591EB</color>
+    <color name="red">#ED0130</color>
+
+    <!--Default Theme-->
+    <color name="bg_start">#975DE5</color>
+    <color name="bg_end">#C297F8</color>
+    <color name="bg_ans_end">#7C2AF1</color>
+    <color name="bg_ans_center">#FFBB86FC</color>
+    <color name="bg_ans_start">#C6A0F3</color>
+    <color name="bg_ans_stroke">#FF3700B3</color>
+    <color name="bg_ans_true_stroke">#48AEFF</color>
+</resources>

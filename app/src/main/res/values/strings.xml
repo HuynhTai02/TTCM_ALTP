@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Ai Là Triệu Phú</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_title1">AI LÀ TRIỆU PHÚ 2023</string>
+    <string name="txt_description1">Chào mừng bạn, nhà Triệu Phú tương lai đến với trò chơi Ai Là Triệu Phú 2023.</string>
+    <string name="txt_title2">ĐA DẠNG CÂU HỎI</string>
+    <string name="txt_description2">Với hơn hàng ngàn các câu hỏi đa dạng chủ đề cùng các cột mốc khác nhau đang chờ bạn chinh phục…</string>
+    <string name="txt_title3">NHÀ TRIỆU PHÚ</string>
+    <string name="txt_description3">Bạn đã sẵn sàng để chinh phục những thử thách và trở thành nhà Triệu Phú của Ai Là Triệu Phú 2023 chưa?</string>
+    <string name="txt_ready">Tôi sẵn Sàng</string>
+    <string name="skip_btn">Bỏ qua</string>
+    <string name="txt_thong_tin">Thông tin</string>
+    <string name="txt_name">Ai là triệu phú 2023</string>
+    <string name="txt_tb">Thông báo</string>
+    <string name="txt_confirm">Bạn có muốn thoát không ?</string>
+    <string name="txt_yes">Có</string>
+    <string name="txt_no">Không</string>
+    <string name="txt_lv1">200,000</string>
+    <string name="txt_lv2">400,000</string>
+    <string name="txt_lv3">600,000</string>
+    <string name="txt_lv4">1,000,000</string>
+    <string name="txt_lv5">2,000,000</string>
+    <string name="txt_lv6">3,000,000</string>
+    <string name="txt_lv7">6,000,000</string>
+    <string name="txt_lv8">10,000,000</string>
+    <string name="txt_lv9">14,000,000</string>
+    <string name="txt_lv10">22,000,000</string>
+    <string name="txt_lv11">30,000,000</string>
+    <string name="txt_lv12">40,000,000</string>
+    <string name="txt_lv13">80,000,000</string>
+    <string name="txt_lv14">150,000,000</string>
+    <string name="txt_lv15">250,000,000</string>
+    <string name="txt_setting">Cài đặt</string>
+    <string name="txt_time">45</string>
+</resources>
