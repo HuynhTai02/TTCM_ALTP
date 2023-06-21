@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
 }
 
+apply from: 'autodimension.gradle'
+
 android {
     namespace 'com.huynhngoctai.ttcm_app_altp'
     compileSdk 33

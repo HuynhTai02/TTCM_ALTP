@@ -2,6 +2,7 @@ package com.huynhngoctai.ttcm_app_altp.view.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Handler;
 import android.view.View;
 
@@ -15,6 +16,7 @@ import com.github.mikephil.charting.formatter.IndexAxisValueFormatter;
 import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
 import com.huynhngoctai.ttcm_app_altp.Constants;
+import com.huynhngoctai.ttcm_app_altp.R;
 import com.huynhngoctai.ttcm_app_altp.databinding.DialogHelpPercentBinding;
 import com.huynhngoctai.ttcm_app_altp.view.OnDialogListener;
 
@@ -57,6 +59,7 @@ public class HelpPercentDialog extends Dialog {
         xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
         xAxis.setTextSize(12f);
         xAxis.setValueFormatter(new IndexAxisValueFormatter(Constants.ANSWER_ARRAY));
+        xAxis.setTextColor(Color.WHITE);
 
         binding.barChart.setFitBars(true);
         binding.barChart.getAxisLeft().setEnabled(false);
@@ -155,6 +158,7 @@ public class HelpPercentDialog extends Dialog {
 
         //BarDataSet to store data and configure for the columns of chart
         BarDataSet dataSet = new BarDataSet(entries, "Đáp án");
+        dataSet.setValueTextColor(Color.WHITE);
         dataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         dataSet.setValueFormatter(new PercentFormatter());
         dataSet.setValueTextSize(12f);

@@ -2,8 +2,6 @@ package com.huynhngoctai.ttcm_app_altp.view.act;
 
 import androidx.fragment.app.Fragment;
 
-import android.view.View;
-
 import com.huynhngoctai.ttcm_app_altp.CommonUtils;
 import com.huynhngoctai.ttcm_app_altp.MediaManager;
 import com.huynhngoctai.ttcm_app_altp.R;

@@ -6,30 +6,38 @@
     android:orientation="vertical">
 
     <pl.droidsonroids.gif.GifImageView
-        android:elevation="5dp"
+        android:elevation="@dimen/dp_5"
         android:src="@drawable/gif_fireworks6"
         android:layout_width="match_parent"
-        android:layout_height="350dp"/>
+        android:layout_height="@dimen/dp_350"/>
 
     <ImageView
-        android:padding="5dp"
+        android:padding="@dimen/dp_5"
         android:id="@+id/iv_back"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginTop="25dp"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_25"
         android:src="@drawable/ic_back" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/dp_30"
         android:src="@drawable/ic_tt" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_80"
         android:src="@drawable/ic_tt1" />
+    <ImageView
+        android:layout_gravity="end"
+        android:padding="@dimen/dp_5"
+        android:id="@+id/iv_share"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_24"
+        android:src="@drawable/ic_share" />
 </FrameLayout>

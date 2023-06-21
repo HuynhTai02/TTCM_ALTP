@@ -8,9 +8,9 @@
 
     <ImageView
         android:id="@+id/iv_logo_main"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
-        android:layout_marginTop="50dp"
+        android:layout_width="@dimen/dp_350"
+        android:layout_height="@dimen/dp_350"
+        android:layout_marginTop="@dimen/dp_50"
         android:src="@drawable/bg_main"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,8 +29,8 @@
     <ImageView
         android:id="@+id/iv_play_game"
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_height="@dimen/dp_100"
+        android:layout_marginTop="@dimen/dp_100"
         android:src="@drawable/ic_start"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,10 +39,10 @@
 
     <ImageView
         android:id="@+id/iv_info"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:padding="5dp"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_20"
+        android:padding="@dimen/dp_5"
         android:src="@drawable/ic_info"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/iv_help"
@@ -52,9 +52,9 @@
 
     <ImageView
         android:id="@+id/iv_rank"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="5dp"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:padding="@dimen/dp_5"
         android:src="@drawable/ic_rank"
         app:layout_constraintBottom_toBottomOf="@id/iv_info"
         app:layout_constraintEnd_toStartOf="@id/iv_setting"
@@ -63,9 +63,9 @@
 
     <ImageView
         android:id="@+id/iv_help"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="5dp"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:padding="@dimen/dp_5"
         android:src="@drawable/ic_help"
         app:layout_constraintBottom_toBottomOf="@id/iv_info"
         app:layout_constraintEnd_toStartOf="@id/iv_rank"
@@ -74,9 +74,9 @@
 
     <ImageView
         android:id="@+id/iv_setting"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="5dp"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:padding="@dimen/dp_5"
         android:src="@drawable/ic_setting"
         app:layout_constraintBottom_toBottomOf="@id/iv_info"
         app:layout_constraintEnd_toEndOf="parent"

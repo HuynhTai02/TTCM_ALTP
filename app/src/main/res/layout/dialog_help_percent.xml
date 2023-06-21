@@ -9,7 +9,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/dp_10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/bg_view_question"
@@ -18,7 +18,7 @@
         android:gravity="center"
         android:text="Ý Kiến Khán Giả"
         android:textColor="@color/red"
-        android:textSize="30sp"
+        android:textSize="@dimen/sp_30"
         android:textStyle="bold"
         tools:ignore="HardcodedText" />
 
@@ -26,18 +26,18 @@
     <com.github.mikephil.charting.charts.BarChart
         android:id="@+id/bar_chart"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="30dp" />
+        android:layout_height="@dimen/dp_350"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_30" />
 
     <Button
         android:visibility="invisible"
         android:layout_marginTop="10dp"
         android:id="@+id/bt_thanks"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginBottom="@dimen/dp_20"
         android:background="@drawable/bg_view_question"
         android:backgroundTint="#FF0000"
         android:fontFamily="@font/alata_regular"

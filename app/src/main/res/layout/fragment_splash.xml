@@ -7,14 +7,14 @@
     android:background="@drawable/bg">
 
     <pl.droidsonroids.gif.GifImageView
-        android:elevation="5dp"
+        android:elevation="@dimen/dp_5"
         android:src="@drawable/gif_fireworks6"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
     <ProgressBar
-        android:layout_width="650dp"
-        android:layout_height="650dp"
+        android:layout_width="@dimen/dp_650"
+        android:layout_height="@dimen/dp_650"
         android:indeterminateBehavior="repeat"
         android:indeterminateDrawable="@anim/circle_rotate"
         android:indeterminateDuration="12000"
@@ -25,10 +25,10 @@
 
     <ImageView
         android:id="@+id/imv_logo"
-        android:paddingTop="30dp"
+        android:paddingTop="@dimen/dp_30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="30dp"
+        android:paddingBottom="@dimen/dp_30"
         android:src="@drawable/bg_txtaltp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

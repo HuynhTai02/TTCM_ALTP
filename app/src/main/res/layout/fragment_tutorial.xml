@@ -6,11 +6,11 @@
     android:background="@drawable/bg">
 
     <ImageView
-        android:padding="5dp"
+        android:padding="@dimen/dp_5"
         android:id="@+id/iv_back"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginTop="25dp"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_25"
         android:src="@drawable/ic_back"
         app:layout_constraintBottom_toTopOf="@id/slider"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,7 +19,7 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slider"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/dp_0"
         app:layout_constraintBottom_toTopOf="@+id/dots"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,10 +27,10 @@
 
 
     <TableRow
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/dp_20"
         android:id="@+id/dots"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/dp_50"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         app:layout_constraintBottom_toBottomOf="parent"

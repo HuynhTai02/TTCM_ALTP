@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    tools:context=".view.fragment.OnboardingFragment">
+    android:padding="@dimen/dp_40"
+    tools:context=".view.fragment.OnBoardingFragment">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slider"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/dp_0"
         app:layout_constraintBottom_toTopOf="@+id/relativeLayout1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,8 +31,8 @@
     <RelativeLayout
         android:id="@+id/relativeLayout1"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginHorizontal="10dp"
+        android:layout_height="@dimen/dp_150"
+        android:layout_marginHorizontal="@dimen/dp_10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -40,7 +40,7 @@
         <ImageView
             android:id="@+id/get_started_btn"
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_height="@dimen/dp_50"
             android:src="@drawable/ic_ready"
             android:visibility="invisible"
             tools:ignore="ContentDescription" />
@@ -52,16 +52,16 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:orientation="horizontal"
-            android:paddingBottom="20dp" />
+            android:paddingBottom="@dimen/dp_20" />
 
     </RelativeLayout>
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/id_gif1"
-        android:elevation="5dp"
+        android:elevation="@dimen/dp_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="@dimen/dp_100"
         android:background="@drawable/gif_fireworks6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,12 +70,12 @@
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/id_gif2"
-        android:elevation="5dp"
+        android:elevation="@dimen/dp_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/gif_fireworks2"
         android:visibility="invisible"
-        android:layout_marginBottom="270dp"
+        android:layout_marginBottom="@dimen/dp_270"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
